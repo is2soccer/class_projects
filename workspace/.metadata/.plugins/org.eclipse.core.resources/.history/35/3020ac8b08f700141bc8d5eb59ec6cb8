@@ -1,0 +1,28 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.HashSet;
+import java.util.Scanner;
+
+
+public class Practice {
+
+	/**
+	 * @param args
+	 * @throws FileNotFoundException 
+	 */
+	public static void main(String[] args) throws FileNotFoundException {
+		HashSet<String> BookA_hash = new HashSet<String>();
+		TreeSet<String> BookA_tree = new TreeSet<String>();
+		Scanner in = new Scanner(new File("1.txt"));
+		while(in.hasNext()){
+			String word = in.next();
+			word = word.toLowerCase();
+			words.add(word);
+		}
+		while(in.hasNext()){
+			String
+		}
+
+	}
+
+}

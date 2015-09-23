@@ -1,0 +1,12 @@
+Empire State Building
+New York
+USA
+2401.76
+Golden Gate Bridge
+San Francisco
+USA
+679.26
+Eiffel Tower
+Paris
+France
+4996.44

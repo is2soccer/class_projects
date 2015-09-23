@@ -1,0 +1,23 @@
+import java.io.File;
+import java.util.HashSet;
+import java.util.Scanner;
+
+
+public class Practice {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		HashSet<String> words = new HashSet<>();
+		Scanner in = new Scanner(new File("1.txt"));
+		while(in.hasNext()){
+			String word = in.next();
+			word = word.toLowerCase();
+			words.add(word);
+		}
+		System.out.println(words.size());
+
+	}
+
+}

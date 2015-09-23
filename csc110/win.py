@@ -1,0 +1,31 @@
+from graphics import *
+def graphs():
+    
+    win = GraphWin("Window Builder",500,500)
+    rect = Rectangle(Point(100,100),Point(200,375))
+    rect.setFill('black')
+    rect.draw(win)
+    label1 = Text(Point(150,90),"Top")
+    label1.setFill('dark green')
+    label1.draw(win)
+    label2 = Text(Point(150,385),"Bottom")
+    label2.setFill('dark green')
+    label2.draw(win)
+    rect1 = Rectangle(Point(375,150),Point(475,200))
+    rect1.setFill('blue')
+    rect1.draw(win)
+    rect2 = Rectangle(Point(325,200),Point(425,250))
+    rect2.setFill('orange')
+    rect2.draw(win)
+    rect3 = Rectangle(Point(275,250),Point(375,300))
+    rect3.setFill('purple')
+    rect3.draw(win)
+    circ1 = Circle(Point(325,400),50)
+    circ1.setFill('red')
+    circ1.draw(win)
+    circ2 = Circle(Point(375,400),50)
+    circ2.setFill('yellow')
+    circ2.draw(win)
+
+
+graphs()
